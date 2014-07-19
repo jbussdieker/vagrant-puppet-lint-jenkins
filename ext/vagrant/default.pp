@@ -15,3 +15,6 @@ exec { 'apt_update':
 package { 'jenkins':
   ensure => '1.572',
 }
+->
+package { 'git': }
+
