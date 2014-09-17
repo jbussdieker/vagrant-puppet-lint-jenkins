@@ -1,7 +1,14 @@
 # Vagrant Jenkins
 
-## Usage
+## Install Dependencies
 
-1. `vagrant up`
-2. visit_url http://localhost:8080
-3. profit!
+    $ bundle
+    $ bundle exec librarian-puppet install
+
+## Start virtual machine
+
+    $ vagrant up
+
+## TADA!
+
+    $ vagrant ssh

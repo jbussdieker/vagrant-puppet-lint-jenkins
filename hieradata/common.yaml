@@ -1,0 +1,10 @@
+classes:
+ - apt
+apt::sources:
+  'jenkins':
+    release: 'binary/'
+    repos: ''
+    location: 'http://pkg.jenkins-ci.org/debian'
+    key: 'D50582E6'
+    key_source: 'http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key'
+    include_src: false
